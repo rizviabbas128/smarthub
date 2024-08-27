@@ -90,7 +90,7 @@ export default function Header() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            smartHub App
+            SmartHub App
           </Typography>
           <Search>
             <SearchIconWrapper>
@@ -104,7 +104,7 @@ export default function Header() {
               onBlur={handleBlur}
               onClick={handleClick}
             />
-            {open ? <List /> : null}
+            {open ? <List /> : ""}
           </Search>
         </Toolbar>
       </AppBar>
